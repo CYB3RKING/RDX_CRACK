@@ -23,17 +23,40 @@ This Python script is a simple Facebook brute force tool designed for educationa
 
 
 ----------------------------------------------------------------------------
-## HOW TO INSTALL JOKER BURTAL FORCE
+## TERMUX
+```
+apt update
+
+apt upgrade 
+
+apt install git -y
+
+pkg install python python
+
+git clone https://github.com/CYB3R-KING/RDX_CRACK
+
+cd RDX_CRACK
+
+python RDX_CRACK.py
+
+```
+### 
+
+------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+## KALI LINUX 
 ```
 apt update
 
 apt install git -y
 
-pkg install python python2 && pip2 install requests mechanize
 
 git clone https://github.com/CYB3R-KING/RDX_CRACK
 
 cd RDX_CRACK
+
+pip install -r 
 
 python RDX_CRACK.py
 
