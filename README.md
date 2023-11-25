@@ -1,7 +1,12 @@
 # Facebook Brute Force
 
 This Python script is a simple Facebook brute force tool designed for educational and ethical purposes. It demonstrates the importance of using strong, unique passwords and serves as a reminder to secure your online accounts.
-
+## SOCIAL MEDIA :
+[![Github](https://img.shields.io/badge/Github-fikrado-yellow?style=for-the-badge&logo=github)](https://github.com/CYB3R-KING)
+[![Instagram](https://img.shields.io/badge/IG-%40mr__yahye-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/CYB3R_KING)
+[![Owner](https://img.shields.io/badge/telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/SH4D0W_X)
+[![CHANNEL](https://img.shields.io/badge/telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/CYB3R_KING)
+<img height="500" src="https://elements-cover-images-0.imgix.net/599cf8df-69ea-42ee-ab6a-23e8d13624f3?auto=compress%2Cformat&fit=max&w=1019&s=0d7fb3fd2fdfba13dd2056a099b22dac">
 ## Features
 
 - Utilizes the `mechanize` library for web automation.
