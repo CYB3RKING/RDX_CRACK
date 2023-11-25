@@ -15,10 +15,12 @@ This Python script is a simple Facebook brute force tool designed for educationa
 
 ## Usage
 
-``git clone https://github.com/CYB3R-KING/RDX_CRACK
-cd RDX_CRACK
-python RDX_CRACK.py``
+```git clone https://github.com/CYB3R-KING/RDX_CRACK
 
+cd RDX_CRACK
+
+python RDX_CRACK.py```
+###
 ##Disclaimer
 
 This tool is meant for educational purposes only. Unauthorized access to someone else's account is illegal and unethical. Use this script responsibly and only on accounts you own or have explicit permission to test.
