@@ -15,7 +15,7 @@ This Python script is a simple Facebook brute force tool designed for educationa
 
 ## Usage
 
-```git clone https://github.com/CYB3R-KING/RDX_CRACK
+``git clone https://github.com/CYB3R-KING/RDX_CRACK
 
 cd RDX_CRACK
 
