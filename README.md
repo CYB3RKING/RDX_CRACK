@@ -31,11 +31,11 @@ apt install git -y
 
 pkg install python python2 && pip2 install requests mechanize
 
-git clone https://github.com/fikrado/JOKER-burtal-force
+git clone https://github.com/CYB3R-KING/RDX_CRACK
 
-cd JOKER-burtal-force
+cd RDX_CRACK
 
-python joker.py
+python RDX_CRACK.py
 
 ```
 ### 
