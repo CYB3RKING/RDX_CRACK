@@ -4,7 +4,6 @@ This Python script is a simple Facebook brute force tool designed for educationa
 ## SOCIAL MEDIA :
 [![Github](https://img.shields.io/badge/Github-fikrado-yellow?style=for-the-badge&logo=github)](https://github.com/CYB3R-KING)
 [![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/CYB3R_KING)
-[![Owner](https://img.shields.io/badge/telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/SH4D0W_X)
 [![CHANNEL](https://img.shields.io/badge/telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/CYB3R_KING)
 <img height="500" src=" ">
 ## Features
@@ -68,6 +67,10 @@ python RDX_CRACK.py
 ## Disclaimer
 
 This tool is meant for educational purposes only. Unauthorized access to someone else's account is illegal and unethical. Use this script responsibly and only on accounts you own or have explicit permission to test.
+
+## owner
+
+[![Owner](https://img.shields.io/badge/telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/SH4D0W_X)
 
 ## Contributing
 
