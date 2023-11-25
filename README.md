@@ -24,7 +24,7 @@ Feel free to contribute to the project by opening issues, providing feedback, or
 
 ## Credits
 
-This project is inspired by [(https://t.me/CYB3R_KING)].
+This project is inspired by [https://t.me/CYB3R_KING].
 
 **Note:** This tool may not be effective due to Facebook's security measures. It's essential to prioritize online security and use strong, unique passwords.
 
