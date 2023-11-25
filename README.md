@@ -13,15 +13,35 @@ This Python script is a simple Facebook brute force tool designed for educationa
 - Performs brute force attacks by trying different passwords against a provided Facebook account.
 - Includes a customizable wordlist to enhance password guessing.
 
-## Usage
+-------------------------------------------------------------------------------------------------
+##### 1: KALI LINUX
+##### 2: ALL LINUX OS 
+##### 3: TERMUX 
+##### 4: ANY OS THAT PYTHON INSTALLED ON IT
 
-``git clone https://github.com/CYB3R-KING/RDX_CRACK
 
-cd RDX_CRACK
 
-python RDX_CRACK.py```
-###
-##Disclaimer
+
+----------------------------------------------------------------------------
+## HOW TO INSTALL JOKER BURTAL FORCE
+```
+apt update
+
+apt install git -y
+
+pkg install python python2 && pip2 install requests mechanize
+
+git clone https://github.com/fikrado/JOKER-burtal-force
+
+cd JOKER-burtal-force
+
+python joker.py
+
+```
+### 
+
+------------------------------------------------------------------------------------------
+## Disclaimer
 
 This tool is meant for educational purposes only. Unauthorized access to someone else's account is illegal and unethical. Use this script responsibly and only on accounts you own or have explicit permission to test.
 
