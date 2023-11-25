@@ -48,7 +48,9 @@ python RDX_CRACK.py
 ----------------------------------------------------------------------------
 ## KALI LINUX 
 ```
-apt update
+sudo apt update
+
+sudo apt update
 
 apt install git -y
 
