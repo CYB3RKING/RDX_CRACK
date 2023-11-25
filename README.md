@@ -69,8 +69,9 @@ python RDX_CRACK.py
 This tool is meant for educational purposes only. Unauthorized access to someone else's account is illegal and unethical. Use this script responsibly and only on accounts you own or have explicit permission to test.
 
 ## owner
+click here to contact Owner 👉[![Owner](https://img.shields.io/badge/telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/SH4D0W_X)
 
-[![Owner](https://img.shields.io/badge/telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/SH4D0W_X)
+💝💝💝💝💝💝💝💝💝💝💝💝💝💝💝💝💝💝💝💝💝💝
 
 ## Contributing
 
