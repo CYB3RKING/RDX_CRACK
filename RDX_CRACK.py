@@ -118,7 +118,7 @@ class FaceBoom(object):
        print ("Telegram - \033[1;31mhttps://t.me/CYB3R_KING\n\033[96mYou tube - \033[1;31mhttp://YouTube.com/@CYB3R__KING\n\033[96mInstagram - \033[1;31mhttp://instagram.com/CYB3R_KING\n\033[96mOwner - \033[1;31m@SH4D0W_X\n\033[96mManager -\033[1;31m @CYB3R_SUMAN\n\n\033[1;33m")
        print ("  \033[96m   ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓")
        print(gr + """\t[>] Target      :> """ + wi + target + gr + """
-\t[>] Wordlist    :> """ + yl + str(wordlist) + gr + """\n""" + wi)
+\t[>] Wordlist    :> """ + yl + str(wordlist) + gr + """""" + wi)
        print ("  \033[96m   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛")
        print ("\033[1;33m<================================================================>\n\n")
     @staticmethod
