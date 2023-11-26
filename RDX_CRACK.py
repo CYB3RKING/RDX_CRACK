@@ -9,17 +9,15 @@ import time
 import requests
 import mechanize
 import io
-#!/usr/bin/python
 
-import socket, sys, os, re, random, optparse, time, io
-# Existing code
+
 versionPath = os.path.join("core", "version.txt")
 
 # Define errMsg function
 def errMsg(msg):
     write(rd+"\n["+yl+"!"+rd+"] Error: "+yl+msg+rd+ " !!!\n"+wi)
 
-# Rest of the code...
+
 
 try:import requests
 except ImportError:
@@ -36,7 +34,7 @@ def sprint(str):
    for c in str +  '\n':
      sys.stdout.write(c)
      sys.stdout.flush()
-     time.sleep(5./90)  # Comment out or remove this line to speed up printing
+     time.sleep(5./90)  
 
 # Rest of your script...
 
@@ -120,7 +118,7 @@ class FaceBoom(object):
        print ("Telegram - \033[1;31mhttps://t.me/CYB3R_KING\n\033[96mYou tube - \033[1;31mhttp://YouTube.com/@CYB3R__KING\n\033[96mInstagram - \033[1;31mhttp://instagram.com/CYB3R_KING\n\033[96mOwner - \033[1;31m@SH4D0W_X\n\033[96mManager -\033[1;31m @CYB3R_SUMAN\n\n\033[1;33m")
        print ("  \033[96m   ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓")
        print(gr + """\t[>] Target      :> """ + wi + target + gr + """
-\t[>] Wordlist    :> """ + yl + str(wordlist) + gr + """\n""" + wi)
+\t[>] Wordlist    :> """ + yl + str(wordlist) + gr + )
        print ("  \033[96m   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛")
        print ("\033[1;33m<================================================================>\n\n")
     @staticmethod
@@ -130,7 +128,7 @@ class FaceBoom(object):
             sys.exit(1)
         write("[~] Checking for updates...\n")
         conn = httplib.HTTPSConnection("raw.githubusercontent.com")
-        conn.request("GET", "/core/version.txt")
+        conn.request("GET", "https://github.com/CYB3R-KING/version.txt")
         repoVersion = conn.getresponse().read().strip().decode()
         with open(versionPath) as vf:
             currentVersion = vf.read().strip()
@@ -151,7 +149,7 @@ def Main():
     faceboom = FaceBoom()
 
     target = input("\033[96mEnter target email or ID:\033[1;33m ")
-    wordlist = input("\033[96mEnter wordlist file path:\033[1;33m ")
+    wordlist = input("\n\033[96mEnter wordlist file path:\033[1;33m ")
 
 # Existing code
     if not faceboom.cnet():
