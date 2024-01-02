@@ -32,7 +32,7 @@ apt install git -y
 
 pkg install python python
 
-git clone https://github.com/CYB3R-KING/RDX_CRACK
+git clone https://github.com/CYB3RKINGX/RDX_CRACK
 
 cd RDX_CRACK
 
@@ -54,7 +54,7 @@ sudo apt update
 
 apt install git -y
 
-git clone https://github.com/CYB3R-KING/RDX_CRACK
+git clone https://github.com/CYB3RKINGX/RDX_CRACK
 
 cd RDX_CRACK
 
