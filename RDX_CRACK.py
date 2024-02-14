@@ -121,28 +121,6 @@ class FaceBoom(object):
 \t[>] Wordlist    :> """ + yl + str(wordlist) + gr + """/t""" + wi)
        print ("  \033[96m   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛")
        print ("\033[1;33m<================================================================>\n\n")
-    @staticmethod
-    def updateFaceBoom():
-        if not os.path.isfile(versionPath):
-            errMsg("Unable to check for updates: please re-clone the script to fix this problem")
-            sys.exit(1)
-        write("[~] Checking for updates...\n")
-        conn = httplib.HTTPSConnection("raw.githubusercontent.com")
-        conn.request("GET", "https://github.com/CYB3R-KING/version.txt")
-        repoVersion = conn.getresponse().read().strip().decode()
-        with open(versionPath) as vf:
-            currentVersion = vf.read().strip()
-        if repoVersion == currentVersion:
-            write("  [*] The script is up to date!\n")
-        else:
-            print("  [+] An update has been found ::: Updating... ")
-            conn.request("GET", "/faceboom.py")
-            newCode = conn.getresponse().read().strip().decode()
-            with open("faceboom.py", "w") as faceBoomScript:
-                faceBoomScript.write(newCode)
-            with open(versionPath, "w") as ver:
-                ver.write(repoVersion)
-            write("  [+] Successfully updated :)\n")
 
 
 def Main():
@@ -180,7 +158,7 @@ def Main():
             else:
                 sys.stdout.write(yl + " --➣ login" + rd + " Failed\n")
                 loop += 1
-                print()  # Yeh line loop ke bahar add karein
+                print() 
 
         else:
             print(yl + "\n[" + rd + "!" + yl + "] Sorry: " + wi + "I Can't Find The Correct Password In [ " + yl + wordlist + wi + " ] " + rd + ":(" + yl + "!" + wi)
