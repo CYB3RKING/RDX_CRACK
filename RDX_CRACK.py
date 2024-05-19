@@ -61,9 +61,10 @@ def check_update(local_version):
         response.raise_for_status()  
         remote_version = response.text.strip()
         if remote_version != local_version:
-            print("Update found: Remote version is", remote_version)
+            print("\033[1;33mUpdate found: Remote version is\033[1;31m", remote_version)
+            print("\033[1;37mpleace update this script ...")
         else:
-            print("Up to date: Local version is", local_version)
+            print("\033[1;33mUp to date: Local version is\033[1;32m", local_version)
     except requests.exceptions.RequestException as e:
         print("Error checking update:", e)
 
@@ -77,22 +78,26 @@ def check_internet():
     try:
         response = requests.get(url, timeout=timeout)
         response.raise_for_status() 
-        print("Internet connection is available")
+        print("\033[1;32mInternet connection is available")
     except requests.ConnectionError:
-        print("No internet connection available")
+        print("\033[1;31mNo internet connection available")
     except requests.Timeout:
-        print("The request timed out")
+        print("\033[1;33mThe request timed out")
     except requests.RequestException as e:
-        print("Error checking internet connection:", e)
+        print("\033[1;32mError checking internet connection:\033[1;31m", e)
 
 check_internet()
-
+time.sleep(3)
 check_update(local_version)
+time.sleep(3)
+os.system("cls||clear")
 #banner 
-banner = """ ooooooooo.   oooooooooo.   ooooooo   oooooo
+banner = """ 
+ooooooooo.   oooooooooo.   ooooooo   oooooo
 `888   `Y88. `888'   `Y8b   `8888    d8'    
  888   .d88'  888      888    Y888..8P      
  888ooo88P'   888      888     `8888'        
+ 888`88b.     888      888    .8PY888.      
  888  `88b.   888     d88'   d8'  `888b     
 o888o  o888o o888bood8P'   o888o  o88888o   """
 print ("\t\t\033[1;32m\t", banner)
