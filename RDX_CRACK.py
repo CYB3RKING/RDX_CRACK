@@ -104,8 +104,9 @@ ooooooooo.   oooooooooo.   ooooooo   oooooo
  888  `88b.   888     d88'   d8'  `888b     
 o888o  o888o o888bood8P'   o888o  o88888o   """
 print ("\t\t\033[1;32m\t", banner)
-sprint ("\033[1;33m<========================\033[96m[ \033[1;31m@CYB3R_KING\033[96m ]\033[1;33m=========================>\033[96m")
-print ("Telegram - \033[1;31mhttps://t.me/CYB3R_KING\n\033[96mYou tube - \033[1;31mhttp://YouTube.com/@CYB3R__KING\n\033[96mInstagram - \033[1;31mhttp://instagram.com/CYB3R_KING\n\033[96mOwner - \033[1;31m@SH4D0W_X\n\033[96mManager -\033[1;31m @CYB3R_SUMAN")
+print ("\033[1;33m<========================\033[96m[ \033[1;31m@CYB3R_KING\033[96m ]\033[1;33m=========================>\033[96m")
+print ("\t\t\033[1;31m[\033[1;33m!\033[1;31m]\033[1;32m DISCLAIMER [1;31m[\033[1;33m!\033[1;31m]")
+sprint ("This tool is meant for educational purposes only. Unauthorized access to someone else's account is illegal and unethical. Use this script responsibly and only on accounts you own or have explicit permission to test.")
 print ("\033[1;33m<================================================================>\n\n")
 class FaceBoom(object):
     def __init__(self):
