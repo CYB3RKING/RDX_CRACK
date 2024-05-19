@@ -85,9 +85,12 @@ def check_internet():
         print("\033[1;33mThe request timed out")
     except requests.RequestException as e:
         print("\033[1;32mError checking internet connection:\033[1;31m", e)
-
+print("\n")
+print("\n")
 check_internet()
 time.sleep(3)
+print("\n")
+print("\n")
 check_update(local_version)
 time.sleep(3)
 os.system("cls||clear")
