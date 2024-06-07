@@ -69,7 +69,7 @@ def check_update(local_version):
         print("Error checking update:", e)
 
 
-local_version = "1.0.3" 
+local_version = "1.2.1" 
 
 
 def check_internet():
