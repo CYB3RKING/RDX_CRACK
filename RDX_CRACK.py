@@ -106,7 +106,7 @@ o888o  o888o o888bood8P'   o888o  o88888o   """
 print ("\t\t\033[1;32m\t", banner)
 print ("\033[1;33m<========================\033[96m[ \033[1;31m@CYB3R_KING\033[96m ]\033[1;33m=========================>\033[96m")
 print ("\n\t\t\033[1;31m[\033[1;33m!\033[1;31m]\033[1;32m DISCLAIMER \033[1;31m[\033[1;33m!\033[1;31m]")
-sprint ("This tool is meant for educational purposes only. Unauthorized access to someone else's account is illegal and unethical. Use this script responsibly and only on accounts you own or have explicit permission to test.")
+sprint ("This tool is meant for educational purposes only. Unauthorized access\n to someone else's account is illegal and unethical. Use this script\n responsibly and only on accounts you own or have explicit permission\n to test.")
 print ("\033[1;33m<================================================================>\n\n")
 class FaceBoom(object):
     def __init__(self):
